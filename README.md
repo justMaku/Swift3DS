@@ -1,7 +1,8 @@
 #TL;DR
 Nothing works at all.
 
-# what
+# What
+![I'm as surprised as you are](http://static.justmaku.org/swift3ds.png)
 Swift running on Nintendo 3DS, because why not?
 
 # Why?
