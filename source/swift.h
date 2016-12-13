@@ -1,0 +1,2 @@
+
+int swift_main();
