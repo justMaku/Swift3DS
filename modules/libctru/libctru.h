@@ -1,6 +1,6 @@
 
-#include "libctru/types.h"
-#include "libctru/console.h"
-#include "libctru/services/apt.h"
-#include "libctru/services/gspgpu.h"
-#include "libctru/services/hid.h"
+#include "types.h"
+#include "console.h"
+#include "services/apt.h"
+#include "services/gspgpu.h"
+#include "services/hid.h"

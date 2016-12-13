@@ -4,7 +4,6 @@ import libctru
 @_silgen_name("printf")
 func printf(_ format: StaticString, _ parameters: StaticString ...)
 
-
 @_silgen_name("swift_main")
 func swift_main() -> Int {
 
