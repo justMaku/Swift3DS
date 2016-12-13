@@ -1,1 +1,5 @@
 .vscode
+build
+Swift3DS.elf
+Swift3DS.3dsx
+Swift3DS.smdh
