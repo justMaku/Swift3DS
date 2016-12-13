@@ -1,0 +1,7 @@
+module libctru {
+    umbrella header "libctru/libctru.h"
+}
+
+module stdlib {
+    umbrella header "stdlib/stdlib.h"
+}

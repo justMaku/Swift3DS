@@ -160,7 +160,7 @@ endif
 $(OUTPUT).elf	:	$(OFILES)
 
 %.o : %.swift
-	swiftc -emit-ir -parse-as-library $< -o ${@:.o=}.ll
+	swiftc -emit-ir -parse-as-library -I $(TOPDIR)/modules $< -o ${@:.o=}.ll
 	clang -target arm-none-eabihf -Wno-override-module -o $@ -c ${@:.o=}.ll
 
 -include $(DEPENDS)
